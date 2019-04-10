@@ -50,16 +50,6 @@ namespace Beowulf
             return countSpaces;
 
         }
-        public void  Line()
-        {
-            string line;
-            TextReader reader = new StreamReader("U: /Users/730263/downloads/Beowulf.txt");
-            while ((line = reader.ReadLine())!= null)
-            {
-                LineCount++;
-            }
-            reader.Close();
-            Console.WriteLine(LineCount);
-        }
+       
     }
 }
